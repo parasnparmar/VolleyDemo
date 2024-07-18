@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btnCreateUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create User"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btnStringRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="String Request"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btnJSONSObjectRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON Object Request"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
